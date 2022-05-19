@@ -104,7 +104,8 @@ const signInWithEmailAndPass = (email, password) => {
 const resetPassword = (email) => {
   return async () => {
     try {
-      await sendPasswordResetEmail(auth, email);
+      await sendPasswordResetEmail(auth, email, {url:"https://pgym-henry-final.vercel.app/login/"});
+
       swal({
         title: "Le enviamos un link para recuperar su cuenta",
         buttons: "Aceptar",
@@ -234,7 +235,7 @@ const userSignOut = () => {
 const actionCodeSettings = {
   // URL you want to redirect back to. The domain (www.example.com) for this
   // URL must be in the authorized domains list in the Firebase Console.
-  url: "http://localhost:3000/sociodashboard",
+  url: "https://pgym-henry-final.vercel.app/sociodashboard/",
   // This must be true.
   // dynamicLinkDomain: 'http://localhost:3000/login'
 };

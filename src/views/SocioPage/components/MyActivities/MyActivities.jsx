@@ -182,7 +182,7 @@ useEffect(()=>{
                           <button 
                             onClick={handleMostrar}
                             className={s.myActivitiesBtn}    
-                            >mostrar</button>
+                            >Dejar Comentario</button>
                           </div>  
                       </div>
 
