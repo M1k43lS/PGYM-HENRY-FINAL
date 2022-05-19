@@ -69,6 +69,9 @@ const registerUserWithEmailAndPass = (
         icon: "success",
         title: "Usuario creado correctamente",
       });
+     
+      await axios.post(BASE_URL +'/email/welcome', {user: userToDB } )
+
     } catch (error) {
       console.log(error);
       swal({

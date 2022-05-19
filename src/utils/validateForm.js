@@ -5,9 +5,6 @@ const validateForm = (inputs, type) => {
     if (!inputs.name) {
       errors.name = "El nombre es requerido";
     }
-    if (!inputs.image) {
-      errors.image = "La imagen es requerida";
-    }
   }
 
   if (type === "Usuarios") {
@@ -23,6 +20,7 @@ const validateForm = (inputs, type) => {
     if (!inputs.isAdmin) {
       errors.isAdmin = "¿Será administrador?";
     }
+
     // if (!inputs.notifications) {
     //   errors.notifications = "¿Quiere activar las notificaciones?";
     // }
@@ -50,6 +48,9 @@ const validateForm = (inputs, type) => {
     if (!inputs.diaHoras.length) {
       errors.diaHoras = "Debe seleccionar dia y hora";
     }
+    if (!inputs.image) {
+      errors.image = "La imagen es requerida";
+    }
   }
 
   if (type === "Instructores") {
@@ -62,6 +63,9 @@ const validateForm = (inputs, type) => {
     if (!inputs.activities.length) {
       errors.activities =
         "Debes seleccionar al menos una actividad para el trainer";
+    }
+    if (!inputs.image) {
+      errors.image = "La imagen es requerida";
     }
   }
 
