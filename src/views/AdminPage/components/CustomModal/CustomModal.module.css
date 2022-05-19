@@ -1,0 +1,106 @@
+.dialogContainer {
+  border: none;
+  border-radius: 5px;
+  height: 80%;
+  width: 70%;
+  padding-bottom: 40px;
+}
+.headerDialog {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.closeBtn {
+  border: 2px solid #fe4f22;
+  border-radius: 5px;
+  color: #fe4f22;
+  text-align: center;
+}
+.closeBtn:hover {
+  cursor: pointer;
+}
+.closeBtn:focus {
+  outline: none;
+}
+
+.contentDialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contentDialog label {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: red;
+  text-align: start;
+}
+
+.textAreaContainer {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+.customSelectTag {
+  background-color: whitesmoke;
+  border: none;
+  width: 250px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+.customSelectTag:focus {
+  outline: 1px solid #fe4f22;
+}
+.customSelectTag option {
+  font-family: sans-serif;
+  color: grey;
+}
+.customTextArea {
+  border: none;
+  background-color: whitesmoke;
+  resize: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  height: 80px;
+  padding: 10px;
+  width: 280px;
+}
+
+.customTextArea:focus {
+  outline: 1px solid #fe4f22;
+}
+
+.createBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+.createBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: #fe4f22;
+  padding: 10px;
+  width: 150px;
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.createDisabledBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 10px;
+  width: 150px;
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.createBtn:hover {
+  cursor: pointer;
+}
+.createBtn:focus {
+  outline: none;
+}

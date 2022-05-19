@@ -1,0 +1,24 @@
+.recipeGrid {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 3.2rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 0vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fdede9;
+    height: 100%;
+}

@@ -1,0 +1,78 @@
+.sideBarContainer {
+  height: 100vh;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.headerSideBar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.gymLogo {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+.gymLogo:hover {
+  cursor: pointer;
+}
+.gymLogo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nameGym span {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: grey;
+}
+
+.separator {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+}
+
+.contentSideBar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.link {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 780px) {
+  .sideBarContainer {
+    width: 80px;
+  }
+  .gymLogo {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .gymLogo img {
+    width: 100%;
+    height: 100%;
+  }
+  .nameGym span {
+    font-size: 14px;
+  }
+}

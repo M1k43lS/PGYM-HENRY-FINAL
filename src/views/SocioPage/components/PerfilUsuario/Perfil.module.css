@@ -1,0 +1,96 @@
+.perfilContainer{
+  height: max-content;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+}
+.perfilUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verify {
+  border-radius: 2ex;
+  border: none;
+  background-color: black;
+  color: white;
+  background-color: #111111;
+  margin: 2ex;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+}
+
+.verify:hover {
+  background-color: #eb4e27;
+}
+
+.notVerified {
+  font-size: 1rem;
+  color: red;
+}
+
+.perfilUserName img {
+  height: 8ex;
+  width: 8ex;
+  border-radius: 100%;
+}
+.perfilUserName {
+  display: block;
+  font-size: 2rem;
+  color: #111111;
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  transition: all 0.2s;
+  filter: grayscale(1);
+}
+/* .perfilUserSub {
+  display: block;
+  font-size: 1.2rem;
+  color: #777;
+  transition: all 0.2s;
+} */
+/* .perfilUserDetail {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  transition: all 0.2s;
+} */
+.perfilUser:hover {
+  transform: scale(1);
+  background: rgba(255, 253, 253, 0.336);
+  width: 73vw;
+}
+.perfilUser:hover .perfilUserSub,
+.perfilUser:hover .perfilUserDetail {
+  color: #111111;
+}
+.perfilUserName:hover {
+  filter: none;
+}
+.perfilUser:hover .perfilUserName {
+  color: #eb4e27;
+}
+.perfilAddBtn{
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  width: auto;
+  font-size: 14px;
+  height: 40px;
+  background-color: #fe4f22;
+  cursor: pointer;
+}
+.perfilAddBtn:hover {
+  cursor: pointer;
+  /* background-color: #fdede9;
+  transition: all .3s;
+  color: #eb4e27; */
+}
+.perfilAddBtn:focus {
+  outline: none;
+}

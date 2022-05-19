@@ -1,0 +1,74 @@
+
+.myActivitiesContainer{
+    width: 80%;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+
+}
+.myActivitiesCard{
+    height: 60vh;
+    width: 50vw;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    margin-left: 15vw;
+}
+.myActivitiesCard:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.myActivitiesCard img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.myActivitiesCard p{
+    padding: 15px;
+    text-align: center;
+}
+.myActivitiesBtn{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    width: auto;
+    font-size: 14px;
+    height: 40px;
+    background-color: #fe4f22;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+
+.myActivitiesBtn:hover {
+    cursor: pointer;
+    background-color: #fe4f22;
+    transition: all .3s;
+    color: black; 
+}
+
+ .myActivitiesBtn:focus {
+    outline: none;
+    color: rgb(255, 255, 0);
+}
+ 
+.createReviewTitle{
+    color: #fe4f22;
+}
+.createReviewh4{
+   color: #fff;
+}
+
+/* .MyActivitiesCall{
+    color: blue;
+    font-size: 25px;
+    background-color: #fe4f22;
+} */

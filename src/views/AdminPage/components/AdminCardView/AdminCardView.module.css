@@ -1,0 +1,285 @@
+.principalContainer {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.titleAndAddBtn {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customSelectTag {
+  background-color: whitesmoke;
+  border: none;
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  margin-right: 20px;
+}
+.customSelectTag:focus {
+  outline: 1px solid #fe4f22;
+}
+.customSelectTag option {
+  font-family: sans-serif;
+  color: grey;
+}
+.addBtn {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  width: 80px;
+  font-size: 14px;
+  height: 40px;
+  background-color: #fe4f22;
+}
+
+.addDisabledBtn {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  width: 80px;
+  font-size: 14px;
+  height: 40px;
+  background-color: grey;
+}
+.addBtn:hover {
+  cursor: pointer;
+}
+.addBtn:focus {
+  outline: none;
+}
+
+.refreshBtn:hover {
+  cursor: pointer;
+}
+.titleAndAddBtn h4 {
+  font-family: sans-serif;
+  color: white;
+}
+
+.cardLayout {
+  margin-top: 20px;
+  height: 75vh;
+  width: 75vw;
+  background-color: white;
+  overflow: auto;
+}
+.tableAdminView {
+  table-layout: auto;
+  border-collapse: collapse;
+  width: max-content;
+}
+
+.tableAdminView thead {
+  position: sticky;
+  top: 0px;
+  background-color: whitesmoke;
+  height: 40px;
+}
+
+.tableAdminView thead tr {
+  color: grey;
+  font-family: sans-serif;
+}
+.tableAdminView tbody tr td {
+  padding: 10px;
+  height: 120px;
+}
+.tableAdminView tbody tr {
+  border: 1px solid #cdcccc;
+}
+.tableAdminView tr th {
+  border: none;
+}
+.tdDescription {
+  width: 480px;
+  text-align: justify;
+}
+.tdImageAndVideo {
+  width: 160px;
+}
+
+.tdStandard {
+  width: 180px;
+}
+.tdArray {
+  width: 200px;
+}
+.daysItems {
+  list-style: none;
+}
+
+.headerOfCard {
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 40px;
+}
+.headWithFilterBtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.iconBtn:hover {
+  cursor: pointer;
+}
+
+.listOfItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkStyle {
+  text-decoration: none;
+}
+.editBtn {
+  height: 30px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fe4f22;
+}
+.editBtn:hover {
+  cursor: pointer;
+}
+.editBtn:focus {
+  outline: none;
+}
+.cancelOrderBtn:hover {
+  cursor: pointer;
+}
+.deleteBtn {
+  height: 30px;
+  padding: 8px;
+  font-family: sans-serif;
+  color: white;
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: brown;
+}
+.deleteBtn:hover {
+  cursor: pointer;
+}
+.deleteBtn:focus {
+  outline: none;
+}
+
+.userDataContainer ul li {
+  list-style: none;
+  font-family: sans-serif;
+  color: grey;
+  text-align: start;
+}
+.userDataContainer ul li span {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #fe4f22;
+  font-weight: 600;
+}
+
+.deleteUserBtn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+  .cardLayout {
+    width: 70vw;
+    height: 75vh;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .cardLayout {
+    width: 85vw;
+  }
+  .addBtn {
+    background-color: white;
+    color: #fe4f22;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cardLayout {
+    width: 80vw;
+  }
+  .addBtn {
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background-color: #fe4f22;
+    background-image: url("../../../../assets/add-btn.svg");
+    background-position: 15px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 30px 30px;
+  }
+  .addBtn span {
+    display: none;
+  }
+  .addDisabledBtn {
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background-image: url("../../../../assets/add-btn.svg");
+    background-position: 15px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 30px 30px;
+  }
+  .addDisabledBtn span {
+    display: none;
+  }
+  .customSelectTag {
+    width: 140px;
+    font-size: 12px;
+  }
+  .refreshBtn {
+    position: absolute;
+    top: 15px;
+    right: 20%;
+  }
+  .titleAndAddBtn h4 {
+    font-size: 14px;
+    color: white;
+  }
+
+  .tableAdminView thead tr {
+    font-size: 12px;
+  }
+
+  .tableAdminView tbody tr {
+    font-size: 12px;
+  }
+}

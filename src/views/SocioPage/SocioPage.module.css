@@ -1,0 +1,39 @@
+.principalContainer {
+  display: flex;
+  position: relative;
+  /* justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; */
+  background: conic-gradient(
+    from 140deg at -15% -60%,
+    #fe4f22 -10.7deg,
+    rgba(0, 0, 0, 0) 349.17deg,
+    #fe4f22 349.3deg,
+    rgba(0, 0, 0, 0) 709.17deg
+  );
+  box-sizing: border-box;
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: black;
+}
+
+.centerViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; 
+}
+.principalContainer h2 {
+  color: white;
+}
+.signOutBtn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.signOutBtn:hover {
+  cursor: pointer;
+}
