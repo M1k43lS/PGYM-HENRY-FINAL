@@ -4,11 +4,8 @@
 </p>
 
 # Proyecto grupal - Gym Control App
-
-<p align="right">
-  <img height="200" src="./videogame.png" />
-</p>
-
+*
+*
 ## Objetivos del Proyecto
 *
 *
@@ -16,7 +13,6 @@
 *
 *
 ## Funcionalidades :
-*
 *   Home con información sobre el gimnasio.
 *   Contará con un login en la cual el usuario podrá iniciar sesión o registrarse
 *   Habrá dos roles en la app, administrador y usuario.
