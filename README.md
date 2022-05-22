@@ -12,10 +12,7 @@
 ## Objetivos del Proyecto
 *
 *
-*
-*
-*
-*
+Aplicación web administrativa para un gimnasio, que permita gestionar las distintas actividades brindadas por el mismo, generar alta de usuarios y asociarse a las clases disponibles, cobro de cuotas y membresías, sumado a esto brindar además un servicio extra donde se le brinde información al usuario sobre dietas alimenticias específicas para cada caso.
 *
 *
 
